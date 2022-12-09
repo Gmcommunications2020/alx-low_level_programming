@@ -2,7 +2,7 @@
 /**
  * main - Prints all possible different combinations of two digits
  *
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
 int main(void)
 {
@@ -16,7 +16,7 @@ if (!((ones == tens) || (tens < ones)))/*eliminates repititions*/
 {
 putchar(tens);
 putchar(ones);
-if (!(ones == '9' && tens == '8'))/*addes comma and space*/
+if (!(ones == '9' && tens == '8'))/*adds comma and space*/
 {
 putchar(',');
 putchar(' ');
