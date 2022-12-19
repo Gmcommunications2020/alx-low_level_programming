@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * put_half - print half of a string.
+ * puts_half - print half of a string.
  * @str: input string.
  * Return: no return.
  */
-void put_half(char *str)
+void puts_half(char *str)
 {
 	int count = 0, i;
 
@@ -15,10 +15,12 @@ void put_half(char *str)
 			break;
 		count++;
 	}
+	
 	if (count % 2 == 1)
 		i = count / 2;
 	else
 		i = (count - 1) / 2;
+	
 	for (i++; i < count; i++)
 		_putchar(str[i]);
 	_putchar('\n');
