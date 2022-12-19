@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 /**
- * _strcpy - copy the strng pointed to by src,
+ * _strcpy - copies the strng pointed to by src,
  * including the terminating null byte, to the
  * buffer pointed to by dest.
  * @dest: destination.
  * @src: source.
  * Return: the pointer to dest.
  */
-char *_strcpy(char *dest, cahr *src)
+char *_strcpy(char *dest, char *src)
 {
 	int count = 0;
 
